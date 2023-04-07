@@ -3,7 +3,7 @@ from docopt import docopt
 
 class AIChat:
     def __init__(self):
-        openai.api_key = ''
+        openai.api_key = 'key here'
 
     def response(self, user_input):
         # openai の GPT-3 モデルを使って、応答を生成する
